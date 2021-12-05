@@ -175,6 +175,10 @@ body {
   color: var(--footer-link-color);
   transition: color var(--duration) var(--timing-function);
 }
+.footer-link-map {
+  color: var(--primary-white-color);
+  transition: color var(--duration) var(--timing-function);
+}
 .project-link {
   color: var(--main-text-color);
   transition: box-shadow var(--duration) var(--timing-function);
@@ -185,6 +189,8 @@ body {
 .contact-link:focus,
 .footer-link:hover,
 .footer-link:focus,
+.footer-link-map:hover,
+.footer-link-map:focus,
 .current {
   color: var(--accent-color);
 }
