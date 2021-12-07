@@ -444,15 +444,14 @@ body {
   color: var(--primary-white-color) ;
   transition: background-color var(--duration) var(--timing-function);
 }
-.subscribe-form {
-  margin-left: auto;
-}
 .footer-form {
 display: flex;
 }
 .footer-input {
   font-size: 16px;
   line-height: 1.25;
+  /* color: rgba(255, 255, 255, 0.6); */
+  color: var(--primary-white-color);
   width: 358px;
   height: 50px;
   padding-left: 16px;
@@ -623,6 +622,10 @@ transform: translateY(0);
   margin-bottom: 30px;
   /* position: relative
   left:13px; */
+}
+.modal-check:hover + .modal-check-text span,
+.modal-check:focus-within + .modal-check-text span {
+  border-color: var(--accent-color);
 }
 .modal-input {
   height: 40px;
